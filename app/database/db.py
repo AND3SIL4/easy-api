@@ -6,7 +6,7 @@ _ = models
 
 # Database location
 sqlite_file_name = "db_tutorial.db"
-sqlite_url = "sqlite:///app/db/{}".format(sqlite_file_name)
+sqlite_url = "sqlite:///app/database/{}".format(sqlite_file_name)
 
 # Create engine
 engine = create_engine(sqlite_url, echo=True)

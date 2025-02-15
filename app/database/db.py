@@ -1,4 +1,6 @@
-import models
+from app.database import models
+
+# import models
 from sqlmodel import create_engine, SQLModel
 
 # Dummy assign for import

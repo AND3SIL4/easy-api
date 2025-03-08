@@ -1,5 +1,8 @@
 # Run and deploy using Heroku
 
+![Estado del proyecto](https://img.shields.io/badge/status-activo-brightgreen)
+![Última versión](https://img.shields.io/github/v/release/AND3SIL4/easy-api)
+
 ```sh
 heroku login
 heroku container:login
